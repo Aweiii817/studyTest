@@ -1,9 +1,9 @@
 #include <string>
 	
-struct st
+struct device
 {
 	int addr;
 	std::string name;
 };
 
-void print_st(const st& s);
+void print_device(const device& d);

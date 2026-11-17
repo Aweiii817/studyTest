@@ -1,8 +1,8 @@
-#include "st.h"
+#include "device.h"
 #include <iostream>
 
 int main() {
-	st s{1,"tmp"};
-	print_st(s);
+	device d1{1,"tmp"};
+	print_device(d1);
 	return 0;
 }
