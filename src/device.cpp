@@ -1,4 +1,5 @@
 #include "device.h"
+#include <iostream>
 
 void print_device(const device& d)
 {
