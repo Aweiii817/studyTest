@@ -1,7 +1,8 @@
 #include "st.h"
 #include <iostream>
+
 int main() {
-st s{1,"tmp"};
-std::cout<<s.name<<"@"<<s.addr<<std::endl;
-return 0;
+	st s{1,"tmp"};
+	print_st(s);
+	return 0;
 }
