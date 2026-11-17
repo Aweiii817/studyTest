@@ -7,3 +7,6 @@ struct device
 };
 
 void print_device(const device& d);
+void by_value(device d);
+void by_ref(device& d);
+void by_ptr(device* d);
